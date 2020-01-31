@@ -2,7 +2,6 @@ import random
 
 board = [' ' for x in range(10)]
 
-
 def insertLetter(letter,pos):
     board[pos] = letter
 
@@ -118,6 +117,7 @@ def main():
     if isBoardFull(board):
         print("Tie Game")
 
+        
 start='y'           
 while True:
     if start.lower() == 'y':
